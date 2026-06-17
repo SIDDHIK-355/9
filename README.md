@@ -150,3 +150,7 @@ self-contained `replay_report.html` with the 8 required items:
   preventing pointless recovery loops the strict version caused.
 - **Watch mode** — a `S9_BROWSER_HEADFUL` env toggle added only in the Browser skill,
   default stays headless.
+
+
+ Testing my first branch 🌿
+
