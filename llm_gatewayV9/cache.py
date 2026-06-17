@@ -8,6 +8,8 @@ from __future__ import annotations
 import time, hashlib, asyncio, httpx
 from typing import Optional
 
+# NOTE: practicing git — this comment is a harmless test change (safe to remove later)
+
 
 class GeminiCache:
     """Maps SHA-256(system_text) -> (cache_resource_name, expires_at)."""
