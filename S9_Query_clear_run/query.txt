@@ -1,0 +1,4 @@
+Open the
+  Flipkart homepage at https://www.flipkart.com, use the search box to search 
+  for laptops, filter by price under 80000, sort the list, and give the top 3 
+  laptops with model name, price, processor, RAM, and screen size.

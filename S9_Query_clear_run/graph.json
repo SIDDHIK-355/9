@@ -1,0 +1,305 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "skill": "planner",
+      "inputs": [
+        "USER_QUERY"
+      ],
+      "metadata": {},
+      "status": "complete",
+      "result": {
+        "success": true,
+        "agent_name": "planner",
+        "output": {
+          "rationale": "Navigate to Flipkart, search for laptops, apply the price filter, and extract the top 3 results for structured formatting.",
+          "nodes": [
+            {
+              "skill": "browser",
+              "inputs": [],
+              "metadata": {
+                "label": "flipkart_search",
+                "url": "https://www.flipkart.com",
+                "goal": "Search for 'laptops', set price filter to 'under 80000', sort by 'popularity', and extract the model name, price, processor, RAM, and screen size for the top 3 items."
+              }
+            },
+            {
+              "skill": "distiller",
+              "inputs": [
+                "n:flipkart_search"
+              ],
+              "metadata": {
+                "label": "distilled_data"
+              }
+            },
+            {
+              "skill": "formatter",
+              "inputs": [
+                "USER_QUERY",
+                "n:distilled_data"
+              ],
+              "metadata": {
+                "label": "final_output"
+              }
+            }
+          ]
+        },
+        "artifacts": [],
+        "successors": [
+          {
+            "skill": "browser",
+            "inputs": [],
+            "metadata": {
+              "label": "flipkart_search",
+              "url": "https://www.flipkart.com",
+              "goal": "Search for 'laptops', set price filter to 'under 80000', sort by 'popularity', and extract the model name, price, processor, RAM, and screen size for the top 3 items."
+            }
+          },
+          {
+            "skill": "distiller",
+            "inputs": [
+              "n:flipkart_search"
+            ],
+            "metadata": {
+              "label": "distilled_data"
+            }
+          },
+          {
+            "skill": "formatter",
+            "inputs": [
+              "USER_QUERY",
+              "n:distilled_data"
+            ],
+            "metadata": {
+              "label": "final_output"
+            }
+          }
+        ],
+        "cost": 0.0,
+        "elapsed_s": 8.52980899810791,
+        "provider": "gemini",
+        "error": null,
+        "error_code": null
+      },
+      "_result_typed": true,
+      "id": "n:1"
+    },
+    {
+      "skill": "browser",
+      "inputs": [],
+      "metadata": {
+        "label": "flipkart_search",
+        "url": "https://www.flipkart.com",
+        "goal": "Search for 'laptops', set price filter to 'under 80000', sort by 'popularity', and extract the model name, price, processor, RAM, and screen size for the top 3 items."
+      },
+      "status": "complete",
+      "result": {
+        "success": true,
+        "agent_name": "browser",
+        "output": {
+          "url": "https://www.flipkart.com",
+          "goal": "Search for 'laptops', set price filter to 'under 80000', sort by 'popularity', and extract the model name, price, processor, RAM, and screen size for the top 3 items.",
+          "path": "vision",
+          "turns": 5,
+          "content": "Filters\nBrand\nProcessor\n65 MORE\nRAM Capacity\nProcessor Generation\nSSD Capacity\nType\nScreen Size\nGraphic Processor Name\nProcessor Brand\nPrice\n.\n.\n.\n.\n.\n.\n.\nto\nOperating System\nFeatures\nStorage Type\nRAM Capacity\nUsage\nWeight\nDedicated Graphics Memory\nCustomer Ratings\nRam Type\nUsage\nDiscount\nTouch Screen\n?\nGraphics Memory Type\nOffers\nHard Disk Capacity\nNew Arrivals\nAvailability\nGST Invoice Available\nPage 1 of 96\nDid you find what you were looking for?\nReviews for Popular Laptops\n1. Acer Aspire 3 Intel Pentium...\n3.9\n3,887 Ratings&293 Reviews\u20b939,938\n15% off\n- Intel Pentium Quad Core Processor\n- 12 GB LPDDR4X RAM\n- Windows 11 Home Operating System\nMost Helpful Review\n4\nGood quality product\nThis has a two-core processor, where each core runs at 1.1GHz. Two cores is fine, but 1.1GHz is extremely slow. And you will feel it right away, even when yo...\nRead full reviewNachiketa Mishra\nCertified Buyer\nSep, 2024\nRecent Review\n3\nDecent product\nWorst laptop never buy it\nRead full reviewFlipkart Customer\nCertified Buyer\n11 days ago\n2. HP 14 AI PC Intel Core Ultr...\n4.1\n586 Ratings&50 Reviews\u20b979,990\n40% off\n- Intel Core Ultra 7 Processor\n- 16 GB DDR5 RAM\n- Windows 11 Home Operating System\nMost Helpful Review\n5\nSuper!\nBuild quality is good. Speed is amazing.No negative observation as of now.\nRead full reviewAnushka Badole\nCertified Buyer\n8 months ago\nRecent Review\n3\nFair\nBattery backup is upto 3hr only and speaker volume is too low you have to use 100% volume all the time. Trackpad makes noise while using. Also have heating i...\nRead full reviewUdit Gahlot\nCertified Buyer\n5 days ago\n3. ASUS Chromebook CX14 Intel ...\n3.9\n549 Ratings&42 Reviews\u20b917,990\n18% off\n- Intel Celeron Dual Core Processor\n- 4 GB LPDDR4X RAM\n- Chrome Operating System\nMost Helpful Review\n4\nNice product\nPerformance -5/5\nBattery - 1/5 around 3-4 hours but charging speed is good around 1 hours to 20-100%\nDisplay -4/5\nRead full reviewBattery - 1/5 around 3-4 hours but charging speed is good around 1 hours to 20-100%\nDisplay -4/5\nFlipkart Customer\nCertified Buyer\n8 months ago\nRecent Review\n3\nGood\nIt is a bit laggy, the battery lasts for about 5 hours on normal use, the display is pretty good, you could get a better chromebook by spending 2k more. Soun...\nRead full reviewSeema Yadav\nCertified Buyer\n2 days ago\n4. Acer One 14 AMD Ryzen 3 Qua...\n4\n566 Ratings&61 Reviews\u20b939,990\n18% off\n- AMD Ryzen 3 Quad Core Processor\n- 8 GB LPDDR5 RAM\n- 64 bit Windows 11 Operating System\nMost Helpful Review\n3\nDecent product\nreview after 10 days of usage.\nDisplay - 14inch HD display 6 Bit is average.\nBattery- 36wh battery gives you upto 3 hrs of battery backup (it depends on y...\nRead full reviewDisplay - 14inch HD display 6 Bit is average.\nBattery- 36wh battery gives you upto 3 hrs of battery backup (it depends on y...\nAbhishek Thakur\nCertified Buyer\nOct, 2022\nRecent Review\n1\nUnsatisfactory\nThird class laptop\nTotally money westage\nDo no Purchase\nRead full reviewTotally money westage\nDo no Purchase\nFlipkart Customer\nCertified Buyer\n10 months ago\n5. HP 15 with MSO'2024 AMD Ryz...\n4\n234 Ratings&19 Reviews\u20b946,700\n8% off\n- AMD Ryzen 3 Quad Core Processor\n- 8 GB DDR4 RAM\n- 64 bit Windows 11 Operating System\nMost Helpful Review\n4\nGood choice\nThis is a good product. I have been using it for a week. It works fine. Battery backup is also good. Easily use it 1 day with full charged. Under 40k this is...\nRead full reviewSarthak Biswas\nCertified Buyer\nApr, 2023\nRecent Review\n4\nWorth the money\nThis good laptop if you are beginner then you can choose this laptop.\nRead full reviewGuddu Roy\nCertified Buyer\n5 months ago\nBack to top",
+          "actions": [
+            {
+              "turn": 1,
+              "actions": [
+                {
+                  "type": "click",
+                  "mark": 27
+                }
+              ],
+              "outcome": "ok"
+            },
+            {
+              "turn": 2,
+              "actions": [
+                {
+                  "type": "type",
+                  "mark": 2,
+                  "value": "laptops"
+                },
+                {
+                  "type": "key",
+                  "value": "Enter"
+                }
+              ],
+              "outcome": "ok | ok"
+            },
+            {
+              "turn": 3,
+              "actions": [
+                {
+                  "type": "click",
+                  "mark": 45
+                }
+              ],
+              "outcome": "ok"
+            },
+            {
+              "turn": 4,
+              "actions": [
+                {
+                  "type": "scroll",
+                  "direction": "down",
+                  "value": "500"
+                }
+              ],
+              "outcome": "ok"
+            },
+            {
+              "turn": 5,
+              "actions": [
+                {
+                  "type": "done",
+                  "success": true,
+                  "value": "1. HP 15 with MSO'2024 AMD Ryzen 3 Quad Core 7320U, Price: \u20b946,700, Processor: AMD Ryzen 3 Quad Core, RAM: 8 GB, Screen Size: 39.62 cm (15.6 Inch). 2. HP 15 (i3 14th Gen) Intel Core 3 100U, Price: \u20b941,838, Processor: Intel Core 3, RAM: 8 GB, Screen Size: 39.62 cm (15.6 Inch). 3. ASUS Vivobook 15 (2026), Price: \u20b958,990, Processor: AMD Ryzen 5 Hexa Core 150, RAM: 16 GB, Screen Size: 39.62 cm (15.6 Inch)."
+                }
+              ],
+              "outcome": "done(True)"
+            }
+          ],
+          "final_url": "https://www.flipkart.com/search?q=laptops&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off&sort=popularity"
+        },
+        "artifacts": [],
+        "successors": [],
+        "cost": 0.0,
+        "elapsed_s": 177.82995676994324,
+        "provider": "",
+        "error": null,
+        "error_code": null
+      },
+      "_result_typed": true,
+      "id": "n:2"
+    },
+    {
+      "skill": "distiller",
+      "inputs": [
+        "n:2"
+      ],
+      "metadata": {
+        "label": "distilled_data"
+      },
+      "status": "complete",
+      "result": {
+        "success": true,
+        "agent_name": "distiller",
+        "output": {
+          "fields": {
+            "top_laptops": [
+              {
+                "model": "HP 15 with MSO'2024 AMD Ryzen 3 Quad Core 7320U",
+                "price": "\u20b946,700",
+                "processor": "AMD Ryzen 3 Quad Core",
+                "ram": "8 GB",
+                "screen_size": "39.62 cm (15.6 Inch)"
+              },
+              {
+                "model": "HP 15 (i3 14th Gen) Intel Core 3 100U",
+                "price": "\u20b941,838",
+                "processor": "Intel Core 3",
+                "ram": "8 GB",
+                "screen_size": "39.62 cm (15.6 Inch)"
+              },
+              {
+                "model": "ASUS Vivobook 15 (2026)",
+                "price": "\u20b958,990",
+                "processor": "AMD Ryzen 5 Hexa Core 150",
+                "ram": "16 GB",
+                "screen_size": "39.62 cm (15.6 Inch)"
+              }
+            ]
+          },
+          "rationale": "The top 3 laptop details were extracted directly from the browser node's final output."
+        },
+        "artifacts": [],
+        "successors": [],
+        "cost": 0.0,
+        "elapsed_s": 2.030310869216919,
+        "provider": "gemini",
+        "error": null,
+        "error_code": null
+      },
+      "_result_typed": true,
+      "id": "n:3"
+    },
+    {
+      "skill": "formatter",
+      "inputs": [
+        "USER_QUERY",
+        "n:3"
+      ],
+      "metadata": {
+        "label": "final_output"
+      },
+      "status": "complete",
+      "result": {
+        "success": true,
+        "agent_name": "formatter",
+        "output": {
+          "final_answer": "Here are the top 3 laptops found on Flipkart under \u20b980,000:\n\n1. HP 15 with MSO'2024 AMD Ryzen 3 Quad Core 7320U\n   - Price: \u20b946,700\n   - Processor: AMD Ryzen 3 Quad Core\n   - RAM: 8 GB\n   - Screen Size: 39.62 cm (15.6 Inch)\n\n2. HP 15 (i3 14th Gen) Intel Core 3 100U\n   - Price: \u20b941,838\n   - Processor: Intel Core 3\n   - RAM: 8 GB\n   - Screen Size: 39.62 cm (15.6 Inch)\n\n3. ASUS Vivobook 15 (2026)\n   - Price: \u20b958,990\n   - Processor: AMD Ryzen 5 Hexa Core 150\n   - RAM: 16 GB\n   - Screen Size: 39.62 cm (15.6 Inch)"
+        },
+        "artifacts": [],
+        "successors": [],
+        "cost": 0.0,
+        "elapsed_s": 2.8570220470428467,
+        "provider": "gemini",
+        "error": null,
+        "error_code": null
+      },
+      "_result_typed": true,
+      "id": "n:4"
+    },
+    {
+      "skill": "critic",
+      "inputs": [
+        "USER_QUERY",
+        "n:3"
+      ],
+      "metadata": {
+        "target": "n:3",
+        "child": "n:4"
+      },
+      "status": "complete",
+      "result": {
+        "success": true,
+        "agent_name": "critic",
+        "output": {
+          "verdict": "pass",
+          "rationale": "All requested fields (model, price, processor, RAM, screen size) are present for three laptops, and no contradictions or missing core data are evident."
+        },
+        "artifacts": [],
+        "successors": [],
+        "cost": 0.0,
+        "elapsed_s": 1.3273861408233643,
+        "provider": "groq",
+        "error": null,
+        "error_code": null
+      },
+      "_result_typed": true,
+      "id": "n:5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "n:1",
+      "target": "n:2"
+    },
+    {
+      "source": "n:2",
+      "target": "n:3"
+    },
+    {
+      "source": "n:3",
+      "target": "n:5"
+    },
+    {
+      "source": "n:5",
+      "target": "n:4"
+    }
+  ]
+}

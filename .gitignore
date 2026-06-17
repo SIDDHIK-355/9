@@ -1,0 +1,20 @@
+# secrets — never commit API keys
+.env
+**/.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# local databases / large state (the graded run lives in SUBMISSION_BACKUP)
+*.db
+S9SharedCode/code/state/sessions/
+S9SharedCode/logs/
+
+# large archives — too big for GitHub (>100MB limit), keep local only
+9.zip

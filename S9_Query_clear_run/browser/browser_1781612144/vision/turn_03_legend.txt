@@ -1,0 +1,48 @@
+[1]<a>Flipkart</a>
+[2]<a>Explore Plus</a>
+[3]<input>laptops</input>
+[4]<button></button>
+[5]<a>Login</a>
+[6]<button>LOGIN</button>
+[7]<a>Become a Seller</a>
+[8]<a>Cart</a>
+[9]<a>Flights</a>
+[10]<a>Offer Zone</a>
+[11]<a>Computers</a>
+[12]<a>Laptops</a>
+[13]<input>Search Processor</input>
+[14]<a>Home</a>
+[15]<a>Computers</a>
+[16]<a>Laptops</a>
+[17]<a>Add to Compare ASUS Chromebook CX14 Intel Celeron Dual Core N50 - (4 GB/64 GB EM</a>
+[18]<a>Add to Compare Lenovo 100e Chromebook Gen 4 MediaTek Kompanio 520 - (8 GB/64 GB </a>
+[19]<a>Add to Compare Acer Aspire 3 Intel Pentium Quad Core N6000 - (12 GB/512 GB SSD/W</a>
+[20]<div></div>
+[21]<div>New customer?</div>
+[22]<div>Sign Up</div>
+[23]<div>More</div>
+[24]<div>BRAND</div>
+[25]<div>PROCESSOR</div>
+[26]<div></div>
+[27]<div>Core i5</div>
+[28]<div></div>
+[29]<div>Core i3</div>
+[30]<div></div>
+[31]<div>Core i7</div>
+[32]<div></div>
+[33]<div>Ryzen 7 Quad Core</div>
+[34]<div></div>
+[35]<div>Ryzen 5 Quad Core</div>
+[36]<div></div>
+[37]<div>Core i9</div>
+[38]<span>65 MORE</span>
+[39]<div>RAM CAPACITY</div>
+[40]<div>PROCESSOR GENERATION</div>
+[41]<div>SSD CAPACITY</div>
+[42]<div>TYPE</div>
+[43]<div>SCREEN SIZE</div>
+[44]<div>GRAPHIC PROCESSOR NAME</div>
+[45]<div>Popularity</div>
+[46]<div>Price -- Low to High</div>
+[47]<div>Price -- High to Low</div>
+[48]<div>Newest First</div>

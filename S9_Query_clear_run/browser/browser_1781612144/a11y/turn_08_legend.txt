@@ -1,0 +1,44 @@
+[1]<a>Flipkart</a>
+[2]<a>Explore Plus</a>
+[3]<input>laptops</input>
+[4]<button></button>
+[5]<a>Login</a>
+[6]<a>Become a Seller</a>
+[7]<a>Cart</a>
+[8]<a>Flights</a>
+[9]<a>Offer Zone</a>
+[10]<a>Computers</a>
+[11]<a>Laptops</a>
+[12]<input>Search Processor</input>
+[13]<a>Home</a>
+[14]<a>Computers</a>
+[15]<a>Laptops</a>
+[16]<a>Add to Compare Samsung Galaxy Book4 Edge Series Copilot AI-PC Full Metal Chasis </a>
+[17]<a>Add to Compare HP Victus AI AMD Ryzen 7 Octa Core 260 - (24 GB/1 TB SSD/Windows </a>
+[18]<a>Add to Compare Acer Aspire 3 Intel Pentium Quad Core N6000 - (12 GB/512 GB SSD/W</a>
+[19]<div>More</div>
+[20]<div>BRAND</div>
+[21]<div>PROCESSOR</div>
+[22]<div></div>
+[23]<div>M1 Max</div>
+[24]<div></div>
+[25]<div>M1 Pro</div>
+[26]<div></div>
+[27]<div>MediaTek Kompanio 528</div>
+[28]<div></div>
+[29]<div>MediaTek Kompanio 838</div>
+[30]<div></div>
+[31]<div>Ryzen 5 Octa Core</div>
+[32]<div></div>
+[33]<div>Ryzen 7 Quad Core</div>
+[34]<span>65 MORE</span>
+[35]<div>RAM CAPACITY</div>
+[36]<div>PROCESSOR GENERATION</div>
+[37]<div>SSD CAPACITY</div>
+[38]<div>TYPE</div>
+[39]<div>SCREEN SIZE</div>
+[40]<div>GRAPHIC PROCESSOR NAME</div>
+[41]<div>Popularity</div>
+[42]<div>Price -- Low to High</div>
+[43]<div>Price -- High to Low</div>
+[44]<div>Newest First</div>

@@ -1,0 +1,33 @@
+[1]<a>Flipkart</a>
+[2]<a>Explore Plus</a>
+[3]<input>laptops</input>
+[4]<button></button>
+[5]<a>Login</a>
+[6]<a>Become a Seller</a>
+[7]<a>Cart</a>
+[8]<select>Min ₹20000 ₹40000 ₹50000 ₹60000 ₹75000</select>
+[9]<select>₹20000 ₹40000 ₹50000 ₹60000 ₹75000 ₹75000+</select>
+[10]<a>Add to Compare HP Victus AI AMD Ryzen 7 Octa Core 260 - (24 GB/1 TB SSD/Windows </a>
+[11]<a>Add to Compare Acer Aspire 3 Intel Pentium Quad Core N6000 - (12 GB/512 GB SSD/W</a>
+[12]<a>Add to Compare ASUS ExpertBook P1 (i3 14th Gen) with 1 Yr ADP Intel Core 3 14th </a>
+[13]<a>Add to Compare HP 15 with MSO'2024 AMD Ryzen 3 Quad Core 7320U - (8 GB/512 GB SS</a>
+[14]<div>More</div>
+[15]<span>65 MORE</span>
+[16]<div>RAM CAPACITY</div>
+[17]<div>PROCESSOR GENERATION</div>
+[18]<div>SSD CAPACITY</div>
+[19]<div>TYPE</div>
+[20]<div>SCREEN SIZE</div>
+[21]<div>GRAPHIC PROCESSOR NAME</div>
+[22]<div>PROCESSOR BRAND</div>
+[23]<div></div>
+[24]<div></div>
+[25]<div></div>
+[26]<div>OPERATING SYSTEM</div>
+[27]<div>FEATURES</div>
+[28]<div>STORAGE TYPE</div>
+[29]<div>RAM CAPACITY</div>
+[30]<div>USAGE</div>
+[31]<div>WEIGHT</div>
+[32]<div>DEDICATED GRAPHICS MEMORY</div>
+[33]<div>CUSTOMER RATINGS</div>
