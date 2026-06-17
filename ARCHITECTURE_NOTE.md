@@ -57,3 +57,6 @@ A FastAPI multi-provider router on port 8109. Every skill call is tagged with it
 - **Honest failure handling** — a blocked gateway is a first-class `error_code`, not a crash; the Planner recovers by re-routing.
 - **Best-effort Critic** — passes honest partial data, fails only fabricated/empty data, preventing pointless recovery loops.
 - **Watch mode** — a `S9_BROWSER_HEADFUL=1` env toggle (added only in the Browser skill) opens a real Chrome window for live demos, without changing default headless behaviour.
+
+
+I am just playing here something for the learning git !!!
